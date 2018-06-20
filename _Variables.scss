@@ -1,0 +1,37 @@
+// Global Variables
+ 
+$base__size: 5px;
+$base__fontSize: 14px;
+$base__lineHeight: 1.6;
+$base__fontFamily: 'open_sansregular', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base__touchSize: 36px;
+$base__borderRadius: 15%;
+ 
+$spacing: 4 * $base__size;
+$spacing--big: 8 * $base__size;
+$spacing--small: 2 * $base__size;
+ 
+$color__primary: red;
+$color__black: #000000;
+$color__white: #ffffff;
+$color__success: #8B008B;
+ 
+/* ... and more */
+ 
+ 
+// Component Specific Variables
+ 
+$application__header__height: 116px;
+ 
+$stage__sidebar__width: 300px;
+$stage__header__height: 90px;
+$stage__content__maxWidth: 960px;
+$stage--scrollable__header__height: 140px;
+
+// Override default button styles
+$button__color: $color__primary;
+$button--success__color: $color__success;
+$button--disabled__opacity: 0.5;
+$button__fontFamily: $base__fontFamily;
+$button__borderRadius: $base__borderRadius;
+$button__innerSpacing: $base__size;

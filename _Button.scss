@@ -1,0 +1,31 @@
+// _Button.scss
+
+// Default button styles
+$button__color: yellow !default;
+$button--success__color: green !default;
+$button--disabled__opacity: 0.5 !default;
+$button__fontFamily: "Arial" !default;
+$button__borderRadius: 5% !default;
+$button__innerSpacing: 5px !default;
+ 
+.button {
+	padding-left: $button__innerSpacing;
+	padding-right: $button__innerSpacing;
+	border: 1px solid $button__color;
+	background: $button__color;
+	font-family: $button__fontFamily;
+	border-radius: $button__borderRadius;
+}
+ 
+.button--success {
+	border: 1px solid $button--success__color;
+	background: $button--success__color;
+}
+ 
+.button--disabled {
+	opacity: $button--disabled__opacity;
+}
+ 
+.button--hollow {
+	background: none;
+}

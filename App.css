@@ -1,0 +1,18 @@
+/* ... and more */
+.button {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid red;
+  background: red;
+  font-family: "open_sansregular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 15%; }
+
+.button--success {
+  border: 1px solid #8B008B;
+  background: #8B008B; }
+
+.button--disabled {
+  opacity: 0.5; }
+
+.button--hollow {
+  background: none; }
